@@ -19,11 +19,23 @@
 # Default server configuration
 #
 
-upstream node_servers {
-	server 13.126.38.183:3001;
-	server 13.233.198.105:3001;
+# 🚀 Production-Grade Node.js Deployment with NGINX Load Balancer  
+### High-Availability • Scalable • Secure • Auto-Routing  
+> **Live Server:** http://62.72.29.244  
 
-}
+This repository describes a real-world **production architecture** deployed on a VPS using:
+
+- NGINX (Reverse Proxy + Load Balancer)  
+- Node.js (v22) backend servers  
+- Ubuntu VPS (Hostinger)  
+- PM2 for production process management  
+- Zero downtime scaling  
+
+---
+
+# 🏗️ Architecture Overview
+
+
 server {
 	listen 80 default_server;
 	listen [::]:80 default_server;
