@@ -21,7 +21,7 @@ Use `curl` to check if the domain resolves and is reachable:
 
 ```bash
 curl -I http://your-domain.com
-
+```
 
 ```bash
 curl -I domain name
